@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage
+  annotations:
+    github.com/project-slug: nallamala009/backstage
   description: |
     Backstage is an open-source developer portal that puts the developer experience first.
   links:
@@ -18,6 +20,6 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
 spec:
-  type: library
-  owner: CNCF
-  lifecycle: experimental
+  type: other
+  lifecycle: unknown
+  owner: jwala
